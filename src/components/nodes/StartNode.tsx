@@ -25,7 +25,6 @@ function createStart(x: number, y: number, text: string = 'START') {
 
 function StartNode({ x, y, text }: { x: number; y: number; text?: string }) {
 	const masterContext = useContext(MasterContext)
-
 	useEffect(() => {
 		masterContext.graph.addCell(createStart(x, y, text))
 	}, [])

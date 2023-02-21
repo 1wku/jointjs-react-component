@@ -9,7 +9,7 @@ function App() {
 			<h1>JointJsReact</h1>
 			<JointJs>
 				<StepNode x={10} y={10} />
-				<StartNode x={10} y={10} />
+				<StepNode x={10} y={10} text="Task a" />
 				<StartNode x={10} y={10} />
 			</JointJs>
 		</div>
